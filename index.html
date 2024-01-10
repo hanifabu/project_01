@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+
+    </style>
+  </head>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">HANIF</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <!-- Add  menu items as needed -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Banner -->
+
+
+  <div class="blurred-image">
+    <div class="blurred-overlay"></div>
+    <div class="content">
+      <h1>Welcome to My Website</h1>
+      <label for="age" class="form-label d-block mb-0 text-white">Enter Your Age:</label>
+      <input type="number" id="age" name="age" class="form-control mx-auto" style="width: 50%;"
+        placeholder="Enter your age">
+    </div>
+  </div>
+
+
+  <!-- Cards based on Age -->
+
+  <div class="container mt-4">
+    <div class="row" >
+      <!--adultCard-->
+      <div id="adultCard" class="col-md-4">
+        <div class="card card border-warning mb-3 h-100">
+          <img src="/images/pexels-andrea-piacquadio-874158.jpg" class=" img-fluid card-img-top" alt="Card image">
+          <div class="card-header text-center">
+            <h4>You are an adult</h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">I am Adult</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi omnis exercitationem
+              facilis atque officia rerum nostrum iusto quia, architecto magni distinctio numquam delectus totam
+              voluptatibus sequi quos corporis, expedita praesentium!</p>
+            <a href="#" class="btn btn-success">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!--"childCard-->
+      <div id="childCard" class="col-md-4">
+        <div class="card card border-info mb-3 h-100">
+          <img src="/images/pexels-bess-hamiti-35537.jpg" class="img-fluid card-img-top h-180px" alt="Card image">
+          <div class="card-header text-center">
+            <h4>You are a child</h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">I am Child </h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo eos enim aliquam quia!
+              Pariatur nulla possimus itaque nesciunt unde. Labore, tempore illo! Ex sed est eveniet, velit at saepe
+              maiores.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+
+  <footer class="footer mt-5 py-1 bg-dark">
+    <div class="container ">
+      <p class="text-muted text-dark-emphasis">Footer &copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- Bootstrap JS and Popper.js -->
+
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+
+
+
+  <!-- Script for Age Input -->
+
+
+  </body>
+
+  </html>

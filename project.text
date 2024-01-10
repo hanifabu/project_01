@@ -1,0 +1,16 @@
+মডিউল ৬ এর এসাইনমেন্ট (Exam Week 1)
+condition:
+1.Create a page with HTML, 
+2.raw CSS or bootstrap. 
+3.It has to be responsive. 
+4.Make a banner.
+5.There should be some cards under the banner containing
+an image and some more information like title,
+short description. 
+6Make sure to put a navbar and footer too. 
+
+.......JS part.......
+-> Take an input field for age
+-> if the age is greater than or equal to 18, 
+show a card saying “You are an adult”. 
+Else show a card saying “You are a child”
